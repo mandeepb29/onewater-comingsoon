@@ -120,13 +120,20 @@ p {
   font-family: 'Montserrat', sans-serif; }
 
 .bg_cover {
-  background-position: top right;
+  background-position: bottom right;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(/assets/images/banner-bg2.png);
   width: 100%;
   height: 100%; }
-
+@media all and (max-width:768px){
+  .bg_cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/banner-bg2.png);
+    width: 100%;
+    height: 100%; }
+}
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
