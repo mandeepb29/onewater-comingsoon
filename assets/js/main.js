@@ -127,13 +127,13 @@ $(function() {
     
     
     //Animate the scroll to yop
-    $('.back-to-top').on('click', function(event) {
-        event.preventDefault();
+    // $('.back-to-top').on('click', function(event) {
+    //     event.preventDefault();
         
-        $('html, body').animate({
-            scrollTop: 0,
-        }, 1500);
-    });
+    //     $('html, body').animate({
+    //         scrollTop: 0,
+    //     }, 1500);
+    // });
     
     
     //=====  services progress

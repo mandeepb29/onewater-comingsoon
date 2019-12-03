@@ -113,7 +113,7 @@ ul, ol {
 p {
   font-size: 18px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.8;
   color: #3d3f41;
   letter-spacing: -0.4px;
   margin: 0px;
@@ -526,6 +526,12 @@ p {
 .navbar-brand {
   padding: 0; 
 width: 120px;}
+@media all and (max-width:520px){
+  .navbar-brand {
+    padding: 0;
+    width: 90px;
+  }
+}
 
 .navbar-toggler {
   padding: 0; }
@@ -1838,10 +1844,28 @@ letter-spacing: -2px; }
 ===========================*/
 .footer-area{
   background-image: url(/assets/images/footer-bg.jpg);
-  background-position: top right;
+  background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.ml-custom{
+  margin-left: 20px;
+}
+@media all and (max-width:520px){
+  .footer-area{
+    background-size: inherit;
+}
+
+.footer-area .title{
   text-align: center;
+}
+.footer-about {
+  text-align: center;
+}
+.ml-custom{
+  margin-left: 0px;
+  text-align: center;
+}
 }
 .footer-about .text {
   padding-top: 25px;
@@ -1870,6 +1894,10 @@ letter-spacing: -2px; }
   font-size: 16px;
   padding-top: 15px;
 color: #fff; }
+.footer-contact .text i{
+  font-size: 20px;
+  margin-right: 4px;
+}
 .footer-contact .social li {
   display: inline-block;
   margin-right: 26px; } 
