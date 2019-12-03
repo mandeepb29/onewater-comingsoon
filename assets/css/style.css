@@ -1847,6 +1847,7 @@ letter-spacing: -2px; }
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: left;
 }
 .ml-custom{
   margin-left: 20px;
